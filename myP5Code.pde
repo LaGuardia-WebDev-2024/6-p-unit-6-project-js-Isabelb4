@@ -11,8 +11,17 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
-
+   // The sky
+background(0, 40, 110);
+fill(0,40,0);
+   
+//the ground
+fill(0,10,70);
+ellipse(280, 280, 100, 50);
+ellipse(260, 290, 100, 50);
+ellipse(240, 300, 100, 50);
+ellipse(220, 310, 100, 50);
+ellipse(160, 300, 60, 50);
   
 
 }
