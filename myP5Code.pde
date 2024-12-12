@@ -16,8 +16,89 @@ void draw(){
 background(0, 40, 110);
 fill(0,40,0);
 
-fill(250,190,50);//top l orb
-ellipse(10, 20, 25, 25);
+fill(5,10,70);
+rect(20,0,90,23);
+
+
+
+fill(8,15,80);//top l sky
+ellipse(73, 68, 160, 100);
+fill(10,20,100);
+ellipse(73, 76, 170, 100);
+fill(20,30,110);
+ellipse(73, 80, 175, 90);
+fill(20,30,122);
+ellipse(73, 88, 175, 90);
+fill(20,30,126);
+ellipse(180, 60, 150, 90);
+fill(20,30,122);
+ellipse(240, 20, 150, 80);
+
+fill(20,50,120);//top orb l
+ellipse(3, 25, 60, 60);
+fill(80,100,160);
+ellipse(3, 25, 50, 50);
+fill(130,140,170);
+ellipse(3, 25, 42, 42);
+fill(130,140,170);
+ellipse(3, 25, 34, 34);
+fill(180,160,50);
+ellipse(3, 25, 25, 25);
+fill(250,190,50);
+ellipse(2, 25, 18, 18);
+fill(250,150,50);
+ellipse(1, 25, 10, 10);//top top orb l
+
+fill(20,30,120);//sky l
+ellipse(140, 20, 108, 68);
+
+
+fill(130,140,190);
+ellipse(66, 86, 32, 32);
+fill(140,150,50);
+ellipse(66, 86, 26, 26);
+fill(180,160,50);
+ellipse(66, 86, 20, 20);
+fill(210,190,80);
+ellipse(66, 86, 14, 14);
+fill(250,150,50);
+ellipse(66, 86, 8, 8);
+
+fill(140,160,170);//4 top orb
+ellipse(178, 36, 32, 30);
+fill(140,160,170);
+ellipse(178, 36, 25, 25);
+fill(180,160,50);
+ellipse(178, 36, 20, 20);
+fill(200,180,90);
+ellipse(178, 36, 15, 15);
+fill(250,190,50);
+ellipse(178, 36, 10, 10);
+fill(250,150,50);
+ellipse(178, 36, 5, 5);
+
+fill(60,70,140);//3 top orb
+ellipse(135, 24, 48, 46);
+fill(120,140,160);
+ellipse(135, 24, 40, 38);
+fill(120,140,160);
+ellipse(135, 24, 32, 32);
+fill(140,160,170);
+ellipse(135, 24, 26, 26);
+fill(130,140,150);
+ellipse(135, 24, 18, 18);
+fill(190,150,60);
+ellipse(135, 24, 10, 10);
+
+fill(130,140,170);
+ellipse(76, 20, 26, 26);
+fill(130,140,170);
+ellipse(76, 20, 22, 22);
+fill(250,190,50);
+ellipse(76, 20, 15, 15);
+fill(190,90,50);//next to top top orb l
+ellipse(76, 20, 10, 10);
+
 
 fill(35,55,140);//yellow orb top r
 ellipse(354, 75, 188, 188);
