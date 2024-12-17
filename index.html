@@ -1,18 +1,18 @@
 <!-- Unit 6 Project
 Requirements
-[  ] three different shapes
-[  ] three different RGB colors
-[  ] three comments 
-[  ] three new HTML elements 
+[ yes ] three different shapes
+[ yes ] three different RGB colors
+[ yes ] three comments 
+[ yes ] three new HTML elements 
 
 Select ONE Additional 
 [ no ] Feature 1 - three different strokeWeight() commands
 [ no ] Feature 2 - Add a second <canvas>
 [ no ] Feature 3 - Change Tab Title & Image
 [ no ] Feature 4 - Typewriter Animation
-[ no ] Feature 5 - Gradient Background
+[ yes ] Feature 5 - Gradient Background
 -->
-  
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -21,15 +21,27 @@ Select ONE Additional
     <title>Unit 6 Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
-    <style></style>
+    <style>
+      body {
+        background-image: linear-gradient(
+          to bottom right,
+          #2596be,
+          #064b82,
+          #0a4779,
+          #0a3558
+        );
+      }
+    </style>
   </head>
-
+  <h1>Starry night!</h1>
+  <p>Painting by Vincent van Gogh</p>
   <body>
     <div class="container">
       <div>
         <h2 id="start">How it started.</h2>
         <img
-          class="pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1200px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+          class="pic"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1200px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
         />
       </div>
       <div>
